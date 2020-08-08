@@ -28,6 +28,10 @@
             "production": {
               "fileReplacements": [
                 {
+                  "replace": "apps/realworld/src/assets/config.json",
+                  "with": "apps/realworld/src/assets/config.prod.json"
+                },
+                {
                   "replace": "apps/realworld/src/environments/environment.ts",
                   "with": "apps/realworld/src/environments/environment.prod.ts"
                 }
