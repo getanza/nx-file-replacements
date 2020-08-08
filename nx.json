@@ -21,5 +21,13 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "realworld": {
+      "tags": []
+    },
+    "realworld-e2e": {
+      "tags": [],
+      "implicitDependencies": ["realworld"]
+    }
+  }
 }
